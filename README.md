@@ -18,11 +18,3 @@ This project automates Excel processing using Python and pandas.
 
 ```bash
 python main.py data/
-
-Example
-
-Input:
-Multiple Excel sales files
-
-Output:
-Professional Excel report with summary
