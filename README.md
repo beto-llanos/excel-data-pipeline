@@ -1,20 +1,44 @@
 # Excel Data Pipeline
 
-This project automates Excel processing using Python and pandas.
+Automated Excel processing tool built with Python and pandas.
+
+This project combines multiple Excel files, cleans the data, and generates a professional report automatically.
+
+---
 
 ## Features
 
 - Combine multiple Excel files
-- Clean data
-- Generate summaries
-- Export professional reports
+- Automatic column detection
+- Data cleaning
+- Sales summary generation
+- Excel export with multiple sheets
 
-## Technologies
+---
+
+## Tech Stack
 
 - Python
 - Pandas
+- Openpyxl
+
+---
+
+## Project Structure
+
+excel-data-pipeline/
+│
+├── data/              # Input Excel files
+├── output/            # Generated reports
+├── main.py           # Main script
+├── requirements.txt
+└── README.md
+
+---
 
 ## Usage
 
+Run:
+
 ```bash
-python main.py data/
+python main.py data
